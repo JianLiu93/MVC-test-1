@@ -1,0 +1,20 @@
+.app1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.app1 .output {
+	text-align: center;
+	font-size: 42px;
+	margin-bottom: 30px;
+}
+.app1 .button {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+.app1 button {
+	text-align: center;
+	width: 34px;
+}

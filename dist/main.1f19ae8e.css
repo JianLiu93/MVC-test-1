@@ -1,0 +1,73 @@
+.app1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.app1 .output {
+	text-align: center;
+	font-size: 42px;
+	margin-bottom: 30px;
+}
+.app1 .button {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+.app1 button {
+	text-align: center;
+	width: 34px;
+}
+
+.app2 .tab-bar {
+	display: flex;
+}
+.app2 .tab-bar>li {
+	flex: 1;
+	border: 1px solid pink;
+	cursor: pointer;
+}
+.app2 .tab-bar>li.active {
+	background: pink;
+}
+
+.app2 .tab-content>li {
+	display: none;
+}
+.app2 .tab-content>li.active {
+	display: block;
+}
+
+.app3 .box {
+	margin-top: 100px;
+	margin-left: 100px;
+	width: 100px;
+	height: 100px;
+	background: skyblue;
+	transition: transform 1s linear;
+	cursor: pointer;
+}
+.app3 .box.active {
+	transform: translateX(300px);
+}
+.app4 .circle {
+	margin: 50px auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: red;
+}
+.app4 .circle.active {
+	animation: change 1s linear infinite alternate;
+}
+
+@keyframes change {
+	0% {
+		background: red;
+	}
+	100% {
+		background: olive;
+	}
+}
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */

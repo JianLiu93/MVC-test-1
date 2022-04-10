@@ -1,0 +1,12 @@
+.app3 .box {
+	margin-top: 100px;
+	margin-left: 100px;
+	width: 100px;
+	height: 100px;
+	background: skyblue;
+	transition: transform 1s linear;
+	cursor: pointer;
+}
+.app3 .box.active {
+	transform: translateX(300px);
+}
